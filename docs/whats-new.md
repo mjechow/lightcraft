@@ -1,5 +1,12 @@
 # What's new in LightCraft
 
+## 2026-10-31
+
+### Nikon D40 and D750 colour profiles
+- Raws from the Nikon D40 and D750 now start from a colour profile built from several hundred photos from each camera,
+  like the Z 6II, Z 8 and D5300. On the D750, warm lights in blue-hour photos (street lamps, lit windows, the moon)
+  keep their colour instead of turning yellow-green.
+
 ## 2026-10-27
 
 ### The Edit menu groups Select Only Active Photo and Paste Settings from Previous with their kin

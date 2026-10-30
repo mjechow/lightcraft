@@ -997,6 +997,17 @@ fn corpus_z8_uses_the_bundled_profile() {
     corpus_uses_the_bundled_profile("nef-nikon-z8-lossless.nef", "NIKON Z 8");
 }
 
+/// The public D40 and D750 NEFs weren't among the photos their bundled profiles were fitted to.
+#[test]
+fn corpus_d40_uses_the_bundled_profile() {
+    corpus_uses_the_bundled_profile("nef-nikon-d40.nef", "NIKON D40");
+}
+
+#[test]
+fn corpus_d750_uses_the_bundled_profile() {
+    corpus_uses_the_bundled_profile("nef-nikon-d750.nef", "NIKON D750");
+}
+
 /// A public D7500 NEF (skipped without the corpus): its look is fitted to its own JPEG and white
 /// balance is relative to the as-shot look.
 #[test]
